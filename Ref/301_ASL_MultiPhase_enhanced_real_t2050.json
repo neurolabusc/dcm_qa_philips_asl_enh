@@ -21,8 +21,13 @@
 	"SeriesNumber": 301,
 	"AcquisitionTime": "16:36:46.930000",
 	"AcquisitionNumber": 3,
+	"TriggerDelayTime": 2050,
 	"PhilipsRWVSlope": 0.17265,
 	"PhilipsRWVIntercept": 0,
+	"PhilipsRescaleSlope": 0.17265,
+	"PhilipsRescaleIntercept": 0,
+	"PhilipsScaleSlope": 5.78845,
+	"UsePhilipsFloatNotDisplayScaling": 1,
 	"SliceThickness": 6,
 	"SpacingBetweenSlices": 6.6,
 	"EchoTime": 0.010864,
@@ -52,5 +57,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210819"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }
