@@ -16,8 +16,9 @@
 	"ProtocolName": "pCASL",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo",
 	"ScanOptions": "FS",
-	"PulseSequenceName": "FEEPI",
+	"SequenceName": "FEEPI",
 	"ImageType": ["ORIGINAL", "PRIMARY", "PERFUSION", "NONE", "REAL"],
 	"SeriesNumber": 201,
 	"AcquisitionTime": "16:31:37.920000",
@@ -35,6 +36,7 @@
 	"EchoTime": 0.015311,
 	"RepetitionTime": 4.55,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 90,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
@@ -47,9 +49,12 @@
 	"ReconMatrixPE": 128,
 	"ParallelReductionFactorInPlane": 2.3,
 	"ParallelAcquisitionTechnique": "SENSE",
+	"ParallelReductionFactorOutOfPlane": 1,
 	"WaterFatShift": 9.99549,
 	"EstimatedEffectiveEchoSpacing": 0.000176575,
 	"EstimatedTotalReadoutTime": 0.022425,
+	"AcquisitionDuration": 282.1,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 2190.94,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -62,5 +67,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-SKGRFEEPIp23_run-201_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

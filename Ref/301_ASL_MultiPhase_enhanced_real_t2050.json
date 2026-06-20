@@ -16,8 +16,9 @@
 	"ProtocolName": "ASL_MultiPhase",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo",
 	"ScanOptions": "CG",
-	"PulseSequenceName": "FEEPI",
+	"SequenceName": "FEEPI",
 	"ImageType": ["ORIGINAL", "PRIMARY", "PERFUSION", "NONE", "REAL"],
 	"SeriesNumber": 301,
 	"AcquisitionTime": "16:36:46.930000",
@@ -38,6 +39,7 @@
 	"EchoTime": 0.010864,
 	"RepetitionTime": 0.25,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 40,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
@@ -50,9 +52,12 @@
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2.3,
 	"ParallelAcquisitionTechnique": "SENSE",
+	"ParallelReductionFactorOutOfPlane": 1,
 	"WaterFatShift": 7.01162,
 	"EstimatedEffectiveEchoSpacing": 0.00019742,
 	"EstimatedTotalReadoutTime": 0.0155962,
+	"AcquisitionDuration": 248,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 3130.87,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -65,5 +70,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-SKGRFEEPIt2050p23_run-301_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
